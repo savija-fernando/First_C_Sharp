@@ -5,5 +5,19 @@
 //Console.Write("You wrote your first lines of code.");
 //Console.WriteLine("Congratulations!");
 //Console.Write("You wrote your first lines of code.");
-Console.WriteLine("This is the first line");
-Console.Write("This is the second line");
+//Console.WriteLine("This is the first line");
+//Console.Write("This is the second line");
+
+//Use character literals
+Console.WriteLine('H');
+
+//Use integer literals
+Console.WriteLine(100);
+
+//Use floating-point literals
+Console.WriteLine(99.99F);
+Console.WriteLine(12.39816m);
+
+//Use Boolean literals
+Console.WriteLine(true);
+Console.WriteLine(false);
