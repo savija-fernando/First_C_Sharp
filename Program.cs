@@ -46,5 +46,10 @@
  Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ...\n");
 Console.WriteLine("Invoice: 1021\tComplete!");
 Console.WriteLine("Invoice: 1022\tComplete!");
-Console.WriteLine("\nOutput Directory:");
+Console.Write("\nOutput Directory:");
+
+//Verbatim string literal @
+Console.WriteLine(@"    c:\source\repos");
+Console.Write("\n\n\u65e5\u672c\u306e\u8acb\u6c42\u66f8\u3092\u751f\u6210\u3059\u308b\u306b\u306f\uff1a\n\t");
+
 
