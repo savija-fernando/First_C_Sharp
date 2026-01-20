@@ -35,22 +35,33 @@
 //var value=3;
 //decimal temprerature=34.4m;
 //Console.WriteLine($"Hello, {name}! You have {value} messages in your inbox. The Temperature is {temprerature} celcius.");
- 
- //7.0Format literal strings in C#
- //7.1Character escape sequences
- //Console.WriteLine("Hello,\nSavija!");
- //Console.WriteLine("Hello,\tSavija!");
- //7.3display a file path?
- //Console.WriteLine("C:\\Program Files\\MyApp\\app.exe");
 
- Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ...\n");
-Console.WriteLine("Invoice: 1021\tComplete!");
-Console.WriteLine("Invoice: 1022\tComplete!");
-Console.Write("\nOutput Directory:");
+//7.0Format literal strings in C#
+//7.1Character escape sequences
+//Console.WriteLine("Hello,\nSavija!");
+//Console.WriteLine("Hello,\tSavija!");
+//7.3display a file path?
+//Console.WriteLine("C:\\Program Files\\MyApp\\app.exe");
 
-//Verbatim string literal @
-Console.WriteLine(@"    c:\source\repos");
-//Use the \u plus a four-character code to represent Unicode characters (UTF-16) in a string.
-Console.Write("\n\n\u65e5\u672c\u306e\u8acb\u6c42\u66f8\u3092\u751f\u6210\u3059\u308b\u306b\u306f\uff1a\n\t");
+//Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ...\n");
+//Console.WriteLine("Invoice: 1021\tComplete!");
+//Console.WriteLine("Invoice: 1022\tComplete!");
+//Console.Write("\nOutput Directory:");
 
+//8.0Verbatim string literal @
+//Console.WriteLine(@"    c:\source\repos");
+//9.0Use the \u plus a four-character code to represent Unicode characters (UTF-16) in a string.
+//Console.Write("\n\n\u65e5\u672c\u306e\u8acb\u6c42\u66f8\u3092\u751f\u6210\u3059\u308b\u306b\u306f\uff1a\n\t");
 
+//10.0Combine strings using string interpolation
+//string message="${greeting} {firstName}!";
+
+//challenge
+using System.IO.Compression;
+
+string projectName = "ACME";
+string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+Console.WriteLine($@"View English output:
+        c:\Exercise\{projectName}\data.txt");
+Console.WriteLine($@"{russianMessage}:
+        c:\Exercise\{projectName}\data.txt");
