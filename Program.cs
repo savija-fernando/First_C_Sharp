@@ -50,6 +50,7 @@ Console.Write("\nOutput Directory:");
 
 //Verbatim string literal @
 Console.WriteLine(@"    c:\source\repos");
+//Use the \u plus a four-character code to represent Unicode characters (UTF-16) in a string.
 Console.Write("\n\n\u65e5\u672c\u306e\u8acb\u6c42\u66f8\u3092\u751f\u6210\u3059\u308b\u306b\u306f\uff1a\n\t");
 
 
