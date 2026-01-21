@@ -109,7 +109,7 @@ value = value + 1; // value is now 1.
 value++;           // value is now 2.
 Console.WriteLine(value);*/
 
-int value = 1;
+/*int value = 1;
 
 value = value + 1;
 Console.WriteLine("First increment: " + value);
@@ -127,4 +127,11 @@ value -= 1;
 Console.WriteLine("Second decrement: " + value);
 
 value--;
-Console.WriteLine("Third decrement: " + value);
+Console.WriteLine("Third decrement: " + value);*/
+
+//challenge //m for decimal places 
+int fahrenheit = 94;
+decimal celcius=(fahrenheit-32m)*5m/9m;
+Console.WriteLine("The temperature is "+celcius+ 7+" Celcius.");
+Console.Write("Windows " + 1 + 1);
+Console.WriteLine(5 / 10);
