@@ -73,6 +73,58 @@ using System.IO.Compression;
 //int secondNumber = 7;
 //Console.WriteLine(firstNumber+secondNumber);
 
-string firstName = "Bob";
-int widgetsSold = 7;
-Console.WriteLine(firstName+" sold "+widgetsSold+ 7 +" widgets.");
+//string firstName = "Bob";
+//int widgetsSold = 7;
+//Console.WriteLine(firstName+" sold "+widgetsSold+ 7 +" widgets.");
+
+//Perform math operations
+/*int sum=7+5;
+int difference=7-5;
+int product=7*5;
+int quotient=7/5;
+int remainder=7%5;
+
+Console.WriteLine("Sum: "+sum);
+Console.WriteLine("Difference: "+difference);
+Console.WriteLine("Product: "+product);
+Console.WriteLine("Quotient: "+quotient);
+Console.WriteLine("Remainder: "+remainder);*/
+
+/*int first = 7;
+int second = 5;
+decimal quotient = (decimal)first / (decimal)second;
+Console.WriteLine(quotient);
+
+int result = 3 + 1 * 5 / 2;
+Console.WriteLine(result);*/
+
+//Increment and decrement
+/*int value = 0;     // value is now 0.
+value = value + 5; // value is now 5.
+value += 5;        // value is now 10.
+Console.WriteLine(value);*/
+
+/*int value = 0;     // value is now 0.
+value = value + 1; // value is now 1.
+value++;           // value is now 2.
+Console.WriteLine(value);*/
+
+int value = 1;
+
+value = value + 1;
+Console.WriteLine("First increment: " + value);
+
+value += 1;
+Console.WriteLine("Second increment: " + value);
+
+value++;
+Console.WriteLine("Third increment: " + value);
+
+value = value - 1;
+Console.WriteLine("First decrement: " + value);
+
+value -= 1;
+Console.WriteLine("Second decrement: " + value);
+
+value--;
+Console.WriteLine("Third decrement: " + value);
