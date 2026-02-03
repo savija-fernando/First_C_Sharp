@@ -140,7 +140,7 @@ Console.WriteLine(AppDomain.CurrentDomain.BaseDirectory); */
 
 //guided project
 // initialize variables - graded assignments 
-int currentAssignments = 5;
+/*int currentAssignments = 5;
 
 int sophia1 = 93;
 int sophia2 = 87;
@@ -191,8 +191,54 @@ Console.WriteLine("Nicolas's average score: "+nicolasScore);
 Console.WriteLine("Zahirah's average score: "+zahirahScore);
 Console.WriteLine("Jeong's average score: "+jeongScore);*/
 
-Console.WriteLine("\nStudent\t\tGrade\n");
+/*Console.WriteLine("\nStudent\t\tGrade\n");
 Console.WriteLine("Sophia:\t\t " + sophiaScore + " \tA");
 Console.WriteLine("Nicolas:\t " + nicolasScore + " \tB");
 Console.WriteLine("Zahirah:\t " + zahirahScore + " \tB");
-Console.WriteLine("Jeong:\t\t " + jeongScore + " \tA");
+Console.WriteLine("Jeong:\t\t " + jeongScore + " \tA");*/
+
+string studentName = "Sophia Johnson";
+string course1Name = "English 101";
+string course2Name = "Algebra 101";
+string course3Name = "Biology 101";
+string course4Name = "Computer Science I";
+string course5Name = "Psychology 101";
+
+int course1Credit = 3;
+int course2Credit = 3;
+int course3Credit = 4;
+int course4Credit = 4;
+int course5Credit = 3;
+
+int gradeA=4;
+int gradeB=3;
+
+int course1NameGrade = gradeA;
+int course2NameGrade = gradeB;
+int course3NameGrade = gradeB;
+int course4NameGrade = gradeB;
+int course5NameGrade = gradeA;
+
+int totalCreditHours = 0;
+totalCreditHours += course1Credit;
+totalCreditHours += course2Credit;
+totalCreditHours += course3Credit;
+totalCreditHours += course4Credit;
+totalCreditHours += course5Credit;
+
+totalCreditHours = course1Credit + course2Credit + course3Credit + course4Credit + course5Credit;
+int totalGradePoints = 0;
+totalGradePoints += course1Credit * course1NameGrade;
+
+totalGradePoints += course2Credit * course2NameGrade;
+totalGradePoints += course3Credit * course3NameGrade;
+totalGradePoints += course4Credit * course4NameGrade;
+totalGradePoints += course5Credit * course5NameGrade;
+
+//Console.WriteLine($"{totalGradePoints} {totalCreditHours}");
+
+Console.WriteLine($"{course1Name} {course1NameGrade} {course1Credit}");
+Console.WriteLine($"{course2Name} {course2NameGrade} {course2Credit}");
+Console.WriteLine($"{course3Name} {course3NameGrade} {course3Credit}");
+Console.WriteLine($"{course4Name} {course4NameGrade} {course4Credit}");
+Console.WriteLine($"{course5Name} {course5NameGrade} {course5Credit}");
